@@ -1,0 +1,297 @@
+{
+  "Marketplace": [
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "USER#USR001" },
+          "SK": { "S": "PROFILE" },
+          "Nome": { "S": "Edvaldo Cruz Jr" },
+          "Email": { "S": "ed@email.com" },
+          "Telefone": { "S": "11999990001" },
+          "Endereco": { "S": "São Paulo-SP" },
+          "DataCadastro": { "S": "2026-06-30" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "USER#USR002" },
+          "SK": { "S": "PROFILE" },
+          "Nome": { "S": "Maria Oliveira" },
+          "Email": { "S": "maria@email.com" },
+          "Telefone": { "S": "11999990002" },
+          "Endereco": { "S": "Campinas-SP" },
+          "DataCadastro": { "S": "2026-06-29" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "USER#USR003" },
+          "SK": { "S": "PROFILE" },
+          "Nome": { "S": "Carlos Souza" },
+          "Email": { "S": "carlos@email.com" },
+          "Telefone": { "S": "11999990003" },
+          "Endereco": { "S": "Sorocaba-SP" },
+          "DataCadastro": { "S": "2026-06-28" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "USER#USR004" },
+          "SK": { "S": "PROFILE" },
+          "Nome": { "S": "Ana Lima" },
+          "Email": { "S": "ana@email.com" },
+          "Telefone": { "S": "11999990004" },
+          "Endereco": { "S": "Santos-SP" },
+          "DataCadastro": { "S": "2026-06-28" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "USER#USR005" },
+          "SK": { "S": "PROFILE" },
+          "Nome": { "S": "Fernanda Rocha" },
+          "Email": { "S": "fernanda@email.com" },
+          "Telefone": { "S": "11999990005" },
+          "Endereco": { "S": "Ribeirão Preto-SP" },
+          "DataCadastro": { "S": "2026-06-27" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "PRODUCT#PROD001" },
+          "SK": { "S": "DETAIL" },
+          "Categoria": { "S": "Quadros" },
+          "Nome": { "S": "Quadro Premium" },
+          "Preco": { "N": "448.00" },
+          "Estoque": { "N": "20" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "PRODUCT#PROD002" },
+          "SK": { "S": "DETAIL" },
+          "Categoria": { "S": "Canecas" },
+          "Nome": { "S": "Caneca Gamer" },
+          "Preco": { "N": "79.90" },
+          "Estoque": { "N": "150" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "PRODUCT#PROD003" },
+          "SK": { "S": "DETAIL" },
+          "Categoria": { "S": "MousePad" },
+          "Nome": { "S": "MousePad RGB" },
+          "Preco": { "N": "99.90" },
+          "Estoque": { "N": "90" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "PRODUCT#PROD004" },
+          "SK": { "S": "DETAIL" },
+          "Categoria": { "S": "Camisetas" },
+          "Nome": { "S": "Camiseta Personalizada" },
+          "Preco": { "N": "89.90" },
+          "Estoque": { "N": "200" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "PRODUCT#PROD005" },
+          "SK": { "S": "DETAIL" },
+          "Categoria": { "S": "Garrafas" },
+          "Nome": { "S": "Squeeze Inox" },
+          "Preco": { "N": "69.90" },
+          "Estoque": { "N": "300" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "PRODUCT#PROD006" },
+          "SK": { "S": "DETAIL" },
+          "Categoria": { "S": "Bonés" },
+          "Nome": { "S": "Boné Premium" },
+          "Preco": { "N": "59.90" },
+          "Estoque": { "N": "140" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "PRODUCT#PROD007" },
+          "SK": { "S": "DETAIL" },
+          "Categoria": { "S": "Mochilas" },
+          "Nome": { "S": "Mochila Executiva" },
+          "Preco": { "N": "299.90" },
+          "Estoque": { "N": "70" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "PRODUCT#PROD008" },
+          "SK": { "S": "DETAIL" },
+          "Categoria": { "S": "Fones" },
+          "Nome": { "S": "Headset Bluetooth" },
+          "Preco": { "N": "599.90" },
+          "Estoque": { "N": "40" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "USER#USR001" },
+          "SK": { "S": "ORDER#ORD001" },
+          "Status": { "S": "Concluído" },
+          "DataCompra": { "S": "2026-06-30" },
+          "ValorTotal": { "N": "527.90" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "USER#USR002" },
+          "SK": { "S": "ORDER#ORD002" },
+          "Status": { "S": "Em processamento" },
+          "DataCompra": { "S": "2026-06-29" },
+          "ValorTotal": { "N": "299.90" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "USER#USR003" },
+          "SK": { "S": "ORDER#ORD003" },
+          "Status": { "S": "Pago" },
+          "DataCompra": { "S": "2026-06-28" },
+          "ValorTotal": { "N": "448.00" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "USER#USR004" },
+          "SK": { "S": "ORDER#ORD004" },
+          "Status": { "S": "Enviado" },
+          "DataCompra": { "S": "2026-06-27" },
+          "ValorTotal": { "N": "159.80" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "USER#USR005" },
+          "SK": { "S": "ORDER#ORD005" },
+          "Status": { "S": "Concluído" },
+          "DataCompra": { "S": "2026-06-26" },
+          "ValorTotal": { "N": "659.80" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "ORDER#ORD001" },
+          "SK": { "S": "ITEM#001" },
+          "ProductID": { "S": "PROD001" },
+          "Quantidade": { "N": "1" },
+          "Preco": { "N": "448.00" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "ORDER#ORD001" },
+          "SK": { "S": "ITEM#002" },
+          "ProductID": { "S": "PROD002" },
+          "Quantidade": { "N": "1" },
+          "Preco": { "N": "79.90" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "ORDER#ORD002" },
+          "SK": { "S": "ITEM#001" },
+          "ProductID": { "S": "PROD007" },
+          "Quantidade": { "N": "1" },
+          "Preco": { "N": "299.90" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "ORDER#ORD003" },
+          "SK": { "S": "ITEM#001" },
+          "ProductID": { "S": "PROD001" },
+          "Quantidade": { "N": "1" },
+          "Preco": { "N": "448.00" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "ORDER#ORD004" },
+          "SK": { "S": "ITEM#001" },
+          "ProductID": { "S": "PROD004" },
+          "Quantidade": { "N": "1" },
+          "Preco": { "N": "89.90" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "ORDER#ORD004" },
+          "SK": { "S": "ITEM#002" },
+          "ProductID": { "S": "PROD005" },
+          "Quantidade": { "N": "1" },
+          "Preco": { "N": "69.90" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "ORDER#ORD005" },
+          "SK": { "S": "ITEM#001" },
+          "ProductID": { "S": "PROD008" },
+          "Quantidade": { "N": "1" },
+          "Preco": { "N": "599.90" }
+        }
+      }
+    }
+  ]
+}
