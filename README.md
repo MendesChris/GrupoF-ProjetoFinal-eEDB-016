@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# GrupoF-ProjetoFinal-eEDB-016
-=======
 # GrupoF-ProjetoFinal-eEDB-016 ---
 
 
@@ -133,4 +130,4 @@ A implementação demonstrou a viabilidade da modelagem utilizando **Single Tabl
 # Autores
 
 Projeto desenvolvido para a disciplina **Repositórios de Dados e NoSQL (eEDB-016)** do Curso de Especialização em Big Data da Escola Politécnica da USP.
->>>>>>> 243d26fcc763d456c3ee172fbf920391643b38ce
+
